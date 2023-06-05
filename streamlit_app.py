@@ -43,7 +43,7 @@ except URLError as e:
 #my_data_row = my_cur.fetchone()
 #streamlit.text("Hello from Snowflake:")
 #streamlit.text(my_data_row)
-streamlit.header("View our Fruit list - Add your Favorites!:")
+streamlit.header("View our Fruit list - Add your Favorites!")
 #snowflake related functions
 def get_fruit_load_list():
     with my_cnx.cursor() as my_cur:
